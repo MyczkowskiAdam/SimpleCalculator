@@ -13,11 +13,7 @@ namespace Calculator
     public partial class FrmCalculator : Form
     {
         static string sEquation;
-        static char[] sEquationAr;
-        static int tmp;
         static DataTable dtEquation = new DataTable();
-        const string vars = "1234567890./*-+()";
-        static bool valid;
         
         public FrmCalculator()
         {
@@ -27,34 +23,6 @@ namespace Calculator
         private void btnEquals_Click(object sender, EventArgs e)
         {
             sEquation = txtbOUT.Text;
-            sEquationAr = sEquation.ToCharArray();
-            validate();
-            if (valid != false)
-            {
-                calc();
-            }
-            else
-            {
-                MessageBox.Show("Bad expression", "Invalid Expression", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void validate()
-        {
-            for (int i = 0; i < sEquation.Length; i++)
-            {
-                tmp = vars.IndexOf(sEquationAr[i]);
-                if (tmp == -1)
-                {
-                    valid = false;
-                    break;
-                }
-            }
-        }
-
-        private void calc()
-        {
-
             var product = dtEquation.Compute(sEquation, "");
             sEquation += "=" + product;
             txtbOUT.Clear();
@@ -149,6 +117,13 @@ namespace Calculator
         private void btnRbr_Click(object sender, EventArgs e)
         {
             txtbOUT.AppendText(")");
+        }
+
+        private void txtbOUT_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) &&
+        (e.KeyChar != '.') && (e.KeyChar != '/') && (e.KeyChar != '+') && (e.KeyChar != '-') &&
+        (e.KeyChar != '*') && (e.KeyChar != '(') && (e.KeyChar != ')'); 
         }
     }
 }

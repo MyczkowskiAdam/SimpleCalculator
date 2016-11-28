@@ -52,20 +52,23 @@
             // 
             // txtbOUT
             // 
-            this.txtbOUT.Location = new System.Drawing.Point(12, 12);
+            this.txtbOUT.Location = new System.Drawing.Point(16, 15);
+            this.txtbOUT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtbOUT.Multiline = true;
             this.txtbOUT.Name = "txtbOUT";
-            this.txtbOUT.Size = new System.Drawing.Size(269, 40);
+            this.txtbOUT.Size = new System.Drawing.Size(357, 48);
             this.txtbOUT.TabIndex = 0;
+            this.txtbOUT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbOUT_KeyPress);
             // 
             // btn1
             // 
             this.btn1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn1.Location = new System.Drawing.Point(12, 58);
+            this.btn1.Location = new System.Drawing.Point(16, 71);
+            this.btn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(49, 44);
+            this.btn1.Size = new System.Drawing.Size(65, 54);
             this.btn1.TabIndex = 1;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = false;
@@ -76,9 +79,10 @@
             this.btn2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn2.Location = new System.Drawing.Point(67, 58);
+            this.btn2.Location = new System.Drawing.Point(89, 71);
+            this.btn2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(49, 44);
+            this.btn2.Size = new System.Drawing.Size(65, 54);
             this.btn2.TabIndex = 2;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
@@ -89,9 +93,10 @@
             this.btn3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn3.Location = new System.Drawing.Point(122, 58);
+            this.btn3.Location = new System.Drawing.Point(163, 71);
+            this.btn3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(49, 44);
+            this.btn3.Size = new System.Drawing.Size(65, 54);
             this.btn3.TabIndex = 3;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
@@ -102,9 +107,10 @@
             this.btn4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn4.Location = new System.Drawing.Point(12, 108);
+            this.btn4.Location = new System.Drawing.Point(16, 133);
+            this.btn4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(49, 44);
+            this.btn4.Size = new System.Drawing.Size(65, 54);
             this.btn4.TabIndex = 4;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
@@ -115,9 +121,10 @@
             this.btn5.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn5.Location = new System.Drawing.Point(67, 108);
+            this.btn5.Location = new System.Drawing.Point(89, 133);
+            this.btn5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(49, 44);
+            this.btn5.Size = new System.Drawing.Size(65, 54);
             this.btn5.TabIndex = 5;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
@@ -128,9 +135,10 @@
             this.btn6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn6.Location = new System.Drawing.Point(122, 108);
+            this.btn6.Location = new System.Drawing.Point(163, 133);
+            this.btn6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(49, 44);
+            this.btn6.Size = new System.Drawing.Size(65, 54);
             this.btn6.TabIndex = 6;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
@@ -141,9 +149,10 @@
             this.btn7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn7.Location = new System.Drawing.Point(12, 158);
+            this.btn7.Location = new System.Drawing.Point(16, 194);
+            this.btn7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(49, 44);
+            this.btn7.Size = new System.Drawing.Size(65, 54);
             this.btn7.TabIndex = 7;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
@@ -154,9 +163,10 @@
             this.btn8.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn8.Location = new System.Drawing.Point(67, 158);
+            this.btn8.Location = new System.Drawing.Point(89, 194);
+            this.btn8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(49, 44);
+            this.btn8.Size = new System.Drawing.Size(65, 54);
             this.btn8.TabIndex = 8;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = false;
@@ -167,9 +177,10 @@
             this.btn9.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn9.Location = new System.Drawing.Point(122, 158);
+            this.btn9.Location = new System.Drawing.Point(163, 194);
+            this.btn9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(49, 44);
+            this.btn9.Size = new System.Drawing.Size(65, 54);
             this.btn9.TabIndex = 9;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = false;
@@ -180,9 +191,10 @@
             this.btnFloat.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnFloat.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFloat.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnFloat.Location = new System.Drawing.Point(12, 208);
+            this.btnFloat.Location = new System.Drawing.Point(16, 256);
+            this.btnFloat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFloat.Name = "btnFloat";
-            this.btnFloat.Size = new System.Drawing.Size(49, 44);
+            this.btnFloat.Size = new System.Drawing.Size(65, 54);
             this.btnFloat.TabIndex = 10;
             this.btnFloat.Text = ".";
             this.btnFloat.UseVisualStyleBackColor = false;
@@ -193,9 +205,10 @@
             this.btn0.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn0.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn0.Location = new System.Drawing.Point(67, 208);
+            this.btn0.Location = new System.Drawing.Point(89, 256);
+            this.btn0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(49, 44);
+            this.btn0.Size = new System.Drawing.Size(65, 54);
             this.btn0.TabIndex = 11;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = false;
@@ -206,9 +219,10 @@
             this.btnEquals.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnEquals.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEquals.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEquals.Location = new System.Drawing.Point(122, 208);
+            this.btnEquals.Location = new System.Drawing.Point(163, 256);
+            this.btnEquals.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEquals.Name = "btnEquals";
-            this.btnEquals.Size = new System.Drawing.Size(49, 44);
+            this.btnEquals.Size = new System.Drawing.Size(65, 54);
             this.btnEquals.TabIndex = 12;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = false;
@@ -219,9 +233,10 @@
             this.btnAdd.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdd.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAdd.Location = new System.Drawing.Point(177, 208);
+            this.btnAdd.Location = new System.Drawing.Point(236, 256);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(49, 44);
+            this.btnAdd.Size = new System.Drawing.Size(65, 54);
             this.btnAdd.TabIndex = 13;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -232,9 +247,10 @@
             this.btnSub.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnSub.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSub.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnSub.Location = new System.Drawing.Point(177, 158);
+            this.btnSub.Location = new System.Drawing.Point(236, 194);
+            this.btnSub.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSub.Name = "btnSub";
-            this.btnSub.Size = new System.Drawing.Size(49, 44);
+            this.btnSub.Size = new System.Drawing.Size(65, 54);
             this.btnSub.TabIndex = 14;
             this.btnSub.Text = "-";
             this.btnSub.UseVisualStyleBackColor = false;
@@ -245,9 +261,10 @@
             this.btnMulti.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnMulti.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMulti.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnMulti.Location = new System.Drawing.Point(177, 108);
+            this.btnMulti.Location = new System.Drawing.Point(236, 133);
+            this.btnMulti.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMulti.Name = "btnMulti";
-            this.btnMulti.Size = new System.Drawing.Size(49, 44);
+            this.btnMulti.Size = new System.Drawing.Size(65, 54);
             this.btnMulti.TabIndex = 15;
             this.btnMulti.Text = "*";
             this.btnMulti.UseVisualStyleBackColor = false;
@@ -258,9 +275,10 @@
             this.btnDiv.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnDiv.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDiv.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnDiv.Location = new System.Drawing.Point(177, 58);
+            this.btnDiv.Location = new System.Drawing.Point(236, 71);
+            this.btnDiv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDiv.Name = "btnDiv";
-            this.btnDiv.Size = new System.Drawing.Size(49, 44);
+            this.btnDiv.Size = new System.Drawing.Size(65, 54);
             this.btnDiv.TabIndex = 16;
             this.btnDiv.Text = "/";
             this.btnDiv.UseVisualStyleBackColor = false;
@@ -271,9 +289,10 @@
             this.btnClear.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClear.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnClear.Location = new System.Drawing.Point(232, 208);
+            this.btnClear.Location = new System.Drawing.Point(309, 256);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(49, 44);
+            this.btnClear.Size = new System.Drawing.Size(65, 54);
             this.btnClear.TabIndex = 17;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -284,9 +303,10 @@
             this.btnRbr.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnRbr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRbr.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnRbr.Location = new System.Drawing.Point(232, 158);
+            this.btnRbr.Location = new System.Drawing.Point(309, 194);
+            this.btnRbr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRbr.Name = "btnRbr";
-            this.btnRbr.Size = new System.Drawing.Size(49, 44);
+            this.btnRbr.Size = new System.Drawing.Size(65, 54);
             this.btnRbr.TabIndex = 18;
             this.btnRbr.Text = ")";
             this.btnRbr.UseVisualStyleBackColor = false;
@@ -297,9 +317,10 @@
             this.btnLbr.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btnLbr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLbr.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnLbr.Location = new System.Drawing.Point(232, 108);
+            this.btnLbr.Location = new System.Drawing.Point(309, 133);
+            this.btnLbr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLbr.Name = "btnLbr";
-            this.btnLbr.Size = new System.Drawing.Size(49, 44);
+            this.btnLbr.Size = new System.Drawing.Size(65, 54);
             this.btnLbr.TabIndex = 19;
             this.btnLbr.Text = "(";
             this.btnLbr.UseVisualStyleBackColor = false;
@@ -307,10 +328,10 @@
             // 
             // FrmCalculator
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(296, 264);
+            this.ClientSize = new System.Drawing.Size(395, 325);
             this.Controls.Add(this.btnLbr);
             this.Controls.Add(this.btnRbr);
             this.Controls.Add(this.btnClear);
@@ -331,6 +352,7 @@
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.txtbOUT);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FrmCalculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
