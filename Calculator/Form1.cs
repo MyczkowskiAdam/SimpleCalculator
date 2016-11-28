@@ -29,7 +29,7 @@ namespace Calculator
             sEquation = txtbOUT.Text;
             sEquationAr = sEquation.ToCharArray();
             validate();
-            if (valid == true)
+            if (valid != false)
             {
                 calc();
             }
@@ -44,9 +44,10 @@ namespace Calculator
             for (int i = 0; i < sEquation.Length; i++)
             {
                 tmp = vars.IndexOf(sEquationAr[i]);
-                if (tmp != -1)
+                if (tmp == -1)
                 {
-                    valid = true;
+                    valid = false;
+                    break;
                 }
             }
         }
