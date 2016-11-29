@@ -121,9 +121,73 @@ namespace Calculator
 
         private void txtbOUT_KeyPress(object sender, KeyPressEventArgs e)
         {
-            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) &&
-        (e.KeyChar != '.') && (e.KeyChar != '/') && (e.KeyChar != '+') && (e.KeyChar != '-') &&
-        (e.KeyChar != '*') && (e.KeyChar != '(') && (e.KeyChar != ')'); 
+            e.Handled = true;
+        }
+
+        private void FrmCalculator_Load(object sender, EventArgs e)
+        {
+            btnAdd.Enabled = false;
+            btnDiv.Enabled = false; 
+            btnSub.Enabled = false;
+            btnMulti.Enabled = false;
+        }
+
+        private void enableOperators()
+        {
+            btnAdd.Enabled = true;
+            btnDiv.Enabled = true;
+            btnSub.Enabled = true;
+            btnMulti.Enabled = true;
+        }
+
+        private void btn1_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
+        }
+
+        private void btn2_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
+        }
+
+        private void btn3_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
+        }
+
+        private void btn4_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
+        }
+
+        private void btn5_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
+        }
+
+        private void btn6_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
+        }
+
+        private void btn7_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
+        }
+
+        private void btn8_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
+        }
+
+        private void btn9_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
+        }
+
+        private void btn0_MouseClick(object sender, MouseEventArgs e)
+        {
+            enableOperators();
         }
     }
 }
