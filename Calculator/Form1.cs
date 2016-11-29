@@ -107,6 +107,7 @@ namespace Calculator
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtbOUT.Clear();
+            blockOperators();
         }
 
         private void btnLbr_Click(object sender, EventArgs e)
@@ -126,8 +127,13 @@ namespace Calculator
 
         private void FrmCalculator_Load(object sender, EventArgs e)
         {
+            blockOperators();
+        }
+
+        private void blockOperators()
+        {
             btnAdd.Enabled = false;
-            btnDiv.Enabled = false; 
+            btnDiv.Enabled = false;
             btnSub.Enabled = false;
             btnMulti.Enabled = false;
         }
